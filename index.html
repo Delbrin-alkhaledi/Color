@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COLOR</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <div id="mother">
+    <center>
+      <img src="color.webp" width="399px">
+      <br><br>
+      <div id="dd"></div>
+    </center>
+  </div>
+  <br><br>
+    <div id="container">
+      <table>
+        <tr>
+          <th> <img src="color1.png"> </th>
+          <th> <img src="color2.png"> </th>
+          <th> <img src="color3.png"> </th>
+        </tr>
+        <tr>
+          <td><input type="range" min="0" max="255" value="255" id="r" onchange="changeRange();"></td>
+          <td><input type="range" min="0" max="255" value="255" id="g" onchange="changeRange();"></td>
+          <td><input type="range" min="0" max="255" value="255" id="b" onchange="changeRange();"></td>
+        </tr>
+        <tr>
+          <td id="r-label">255</td>
+          <td id="g-label">255</td>
+          <td id="b-label">255</td>
+        </tr>
+      </table>
+      <h2 id="hex-label">#ffffff</h2>
+      <br><br><br>
+      <h3>GETACADEMY</h3>
+      <p>Få fargekoden ved å flytte pilene</p>
+      
+      
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
